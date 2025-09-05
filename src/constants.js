@@ -33,11 +33,6 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
-// Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
-
 // Education Section Logo's
 import kvsLogo from './assets/education_logo/kvslogo.JPG';
 import srmLogo from './assets/education_logo/srmlogo.png';
@@ -50,6 +45,12 @@ import engIndiaLogo from './assets/work_logo/eng_india.png';
 import todoLogo from './assets/work_logo/to_do_list.png';
 import removebgLogo from './assets/work_logo/removebg.png';
 import quizLogo from './assets/work_logo/interactive_quiz.png';
+
+// Certificates Section Logo's
+import nptelLogo from './assets/certificate_logo/nptel.png';
+import mineverseLogo from './assets/certificate_logo/mineverseLogo.jpg';
+import flipkartLogo from './assets/certificate_logo/flipkartLogo.png';
+
 
 
 export const SkillsInfo = [
@@ -129,6 +130,38 @@ export const SkillsInfo = [
       degree: "CBSE(X)",
     },
   ];
+
+// Certificates Section Logo's
+export const certificates = [
+  {
+    id: 0,
+    title: "NPTEL -  Fundamentals of Object Oriented Programming",
+    description:
+      "Awarded for completing the NPTEL course on Object Oriented Programming.",
+    image: nptelLogo, // put your certificate image in assets
+    tags: ["Problem Solving", "OOPS", "C++","Java"],
+    certificateLink: "https://nptel.ac.in/courses/106/105/106105163/", // actual certificate URL if available
+  },
+  {
+    id: 1,
+    title: "MineVerse Second Prize Winner",
+    description:
+      "Awarded the second prize in the MineVerse competition.",
+    image: mineverseLogo,
+    tags: ["Problem Solving", "DSA", "C++","CP"],
+    certificateLink: "https://coursera.org/verify/xyz",
+  },
+  {
+    id: 2,
+    title: "Flipkart Grid 7.0 - National Semifinalist",
+    description:
+      "Awarded the national semifinalist position in the Flipkart Grid 7.0 competition.",
+    image: flipkartLogo,
+    tags: ["Problem Solving", "DSA", "C++","CP"],
+    certificateLink: "https://coursera.org/verify/xyz",
+  },
+];
+
   
   export const projects = [
     {
@@ -192,3 +225,8 @@ export const SkillsInfo = [
       webapp: "https://apoorwa46.github.io/To-Do-List/",
     },
   ];  
+
+
+
+
+  

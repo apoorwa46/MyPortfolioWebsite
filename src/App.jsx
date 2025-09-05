@@ -6,9 +6,9 @@ import Skills from './Components/Skills/Skills'
 import Education from './Components/Education/Education'
 import Projects from './Components/Projects/Projects'
 import Footer from './Components/Footer/Footer'
+import Certificate from './Components/Certificates/Certificates'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="bg-gray-900 text-white min-h-screen">
@@ -17,6 +17,7 @@ function App() {
       <Home />
       <Skills />
       <Projects />
+      <Certificate />
       <Education />
       <Footer />
     </div>
