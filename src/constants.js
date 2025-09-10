@@ -45,6 +45,8 @@ import engIndiaLogo from './assets/work_logo/eng_india.png';
 import todoLogo from './assets/work_logo/to_do_list.png';
 import removebgLogo from './assets/work_logo/removebg.png';
 import quizLogo from './assets/work_logo/interactive_quiz.png';
+import eventLogo from './assets/work_logo/event.png';
+import blogLogo from './assets/work_logo/blogLogo.png';
 
 // Certificates Section Logo's
 import nptelLogo from './assets/certificate_logo/nptel.png';
@@ -186,6 +188,16 @@ export const certificates = [
     },
     {
       id: 2,
+      title: "Event Attendance System",
+      description:
+        "Event Attendance System – A full-stack MERN app for QR-based event registration, real-time attendance tracking, and Excel report export.",
+      image: eventLogo,
+      tags: ["React.js", "Node.js", "Express", "MongoDB", "QRCode", ],
+      github: "https://github.com/apoorwa46/AmzProductCompareFrontend",
+      webapp: "https://apoorwa46.github.io/AmzProductCompareFrontend/",
+    },
+    {
+      id: 3,
       title: "Image Background Remover",
       description:
         "An efficient background removal app built with HTML,CSS and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
@@ -195,34 +207,14 @@ export const certificates = [
       webapp: "https://github.com/apoorwa46",
     },
     {
-      id: 3,
-      title: "Interactive Quiz App",
-      description:
-        "A web-based application that offers interactive quizzes on various topics. Users can take quizzes, track their progress, and compete with others. Built using React.js and Node.js, it provides a seamless user experience.",
-      image: quizLogo,
-      tags: ["React JS", "HTML", "CSS",],
-      github: "https://github.com/apoorwa46/react-quiz-app",
-      webapp: "https://apoorwa46.github.io/react-quiz-app/",
-    },
-    {
       id: 4,
-      title: "Engineering India",
+      title: "Blog Platform",
       description:
-        "A website dedicated to various engineering entrance exams in India. It provides information about different exams for students aspiring to pursue engineering.",
-      image: engIndiaLogo,
-      tags: ["HTML", "CSS"],
-      github: "https://github.com/apoorwa46/engineerindia.github.io",
-      webapp: "https://apoorwa46.github.io/engineerindia.github.io/",
-    },
-    {
-      id: 5,
-      title: "To-Do List",
-      description:
-        "A simple and intuitive to-do list application built with HTML, CSS, and JavaScript. It allows users to create, edit, and delete tasks, helping them stay organized and manage their time effectively.",
-      image: todoLogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/apoorwa46/To-Do-List",
-      webapp: "https://apoorwa46.github.io/To-Do-List/",
+        "A web-based application that allows users to create, share, and manage their blogs. Built using React.js and Node.js, it provides a seamless user experience.",
+      image: blogLogo,
+      tags: ["React JS", "Node.js", "MongoDB",],
+      github: "https://github.com/apoorwa46/Blog-Platform",
+      webapp: "https://blog-platform-gamma-seven.vercel.app/",
     },
   ];  
 
