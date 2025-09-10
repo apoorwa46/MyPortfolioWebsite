@@ -183,8 +183,8 @@ export const certificates = [
         "A full-stack application that generates concise summaries for Amazon product by link of the product.",
       image: amzSummLogo,
       tags: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "Gemini API"],
-      github: "https://github.com/apoorwa46/AmzProductCompareFrontend",
-      webapp: "https://apoorwa46.github.io/AmzProductCompareFrontend/",
+      github: "https://github.com/apoorwa46/aznProdSum",
+      webapp: "https://github.com/apoorwa46/aznProdSum",
     },
     {
       id: 2,
